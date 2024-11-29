@@ -1,0 +1,132 @@
+* {
+  padding: 0%;
+  margin: 0%;
+
+}
+
+body {
+  background-color: #4c35e0;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+
+
+  .titulo1 {
+    font-size: 11px;
+    font-family: 'monospace';
+    color: white;
+    padding-bottom: 5px;
+  }
+
+  .titulo2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+
+  }
+
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.planes {
+  width: 180px;
+  height: 250px;
+  border: 1px solid;
+  box-shadow: 1px 1px 1px ;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  
+
+  .emojin {
+    font-size: 30px;
+  }
+  .tipo-plan{
+    color: rgb(233, 186, 69);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+  }
+  .precio{
+    font-size: 15px;
+    color:#3b29b1;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .a{
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+  }
+  .text{
+    font-size: 9px;
+    color: #676767;
+  }
+  .enlaces{
+    font-size: 10px;
+    padding: 15px;
+  }
+  .enlace-azul{
+    background-color: #3b29b1;
+    color: white;
+    font-size: 10px;
+    height: 20px;
+    align-content: center;
+    width:100px ;
+    position:relative;
+    left: 36px;
+    
+
+
+    
+  }
+  
+}
+
+p{
+  padding: 4px;
+}
+
+a{
+  list-style: none;
+  color: #3b29b1;
+  font-weight: 600;
+}
+
+.azul{
+  color: white;
+
+}
+
+.titulo-popular{
+  background-color: #ffe4d4;
+  font-size: 10px;
+  color: #3b29b1;
+  font-weight: bolder;
+  height: 15px;
+  width: 100px;
+  position:relative;
+  left: 32px;
+  padding: 9px;
+  
+}
+
+.altura{
+  height: 290px;
+}
+
